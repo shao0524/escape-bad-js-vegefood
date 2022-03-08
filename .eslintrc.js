@@ -9,6 +9,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    quotes: ['error', 'single'],
+    semi: [2, 'always'],
+    quotes: [2, 'single'],
   },
 };
